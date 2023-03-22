@@ -15,12 +15,12 @@ npm install --save express-serve-public
 First you'll need to import the `servePublic` module. Both ES and CommonJS style imports are supported.
 
 ES style import:
-```
+```js
 import { servePublic } from 'express-serve-public`;
 ```
 
 CommonJS style import:
-```
+```js
 const servePublic = require('express-serve-public/cjs');
 ```
 
