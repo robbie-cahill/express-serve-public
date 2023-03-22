@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2022",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [ "es2015", "es2016", "es2017", "es2018", "es2019", "es2020", "es2021", "es2022" ],
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "declaration": true
+    },
+    "exclude": [
+        "cjs",
+        "node_modules",
+        "dist"
+    ]
+}
