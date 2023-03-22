@@ -1,3 +1,3 @@
-const tunnelmole = require('tunnelmole/cjs');
+const servePublic = require('express-serve-public/cjs');
 
-module.exports = tunnelmole;
+module.exports = servePublic;
