@@ -1,2 +1,3 @@
+import { Application } from 'express';
 import { Options } from '../options.js';
-export default function tunnelmole(options: Options): Promise<void>
+export default function servePublic(app: Application, options: Options, callback: any): Promise<void>

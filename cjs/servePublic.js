@@ -5,8 +5,8 @@
  */
 
 const servePublic = async function(app, options, callback) {
-    const servePublic = await import('../dist/src/index.js');
-    servePublic(app, options, callback);
+    const mod = await import('../dist/src/index.js');
+    mod.servePublic(app, options, callback);
 };
 
 module.exports = servePublic;
