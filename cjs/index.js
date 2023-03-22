@@ -1,3 +1,3 @@
-const tunnelmole = require('./tunnelmole');
+const tunnelmole = require('tunnelmole/cjs');
 
 module.exports = tunnelmole;
