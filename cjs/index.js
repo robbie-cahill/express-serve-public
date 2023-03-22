@@ -1,3 +1,3 @@
-const servePublic = require('express-serve-public/cjs');
+const servePublic = require('./servePublic');
 
 module.exports = servePublic;
