@@ -54,7 +54,7 @@ servePublic(
 );
 ```
 
-If your project is using CommonJS, here is a CommonJS example: https://github.com/robbie-cahill/express-serve-public/blob/main/cjs/express-serve-public.js
+If your project is using CommonJS, here is a CommonJS example: https://github.com/robbie-cahill/express-serve-public/blob/main/cjs/express-serve-public.js.
 
 When this application runs, you should see output similar to the following:
 ```
