@@ -1,5 +1,5 @@
 ## Instant Public URLs for express
-`express-serve-public` will generate an instant public URL for your express application. This URL will work behind firewalls and will connect to your local machine via a tunnel. You don't need any special networking config or setup. It will work behind NAT and CG-NAT.
+Express Serve Public will generate an instant public URL for your express application. This URL will work behind firewalls and will connect to your local machine via a tunnel. You don't need any special networking config or setup. It will work behind NAT and CG-NAT.
 
 Behind the scenes, this uses [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client) (an open source `ngrok` alternative) to get the public URLs.
 
